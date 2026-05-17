@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    
+    <div class="container">
+
+        <!-- Logo + Image -->
+        <div class="logo-container">
+            <img src="../pictures/shivam-logo.jpeg"
+                 alt="Shivam Auto Workshop Logo"
+                 class="logo-img">
+
+            <h1 class="logo-text">
+                Shivam Auto stores & Workshop
+            </h1>
+        </div>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="store.html">Auto Store</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </nav>
+
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/919100687587"
+           class="whatsapp-btn"
+           target="_blank">
+            WhatsApp
+        </a>
+
+    </div>
+</header>
+
+<section class="products">
+
+    <div class="container">
+
+        <h2>Your Cart</h2>
+
+        <div class="product-grid" id="cartItems"></div>
+
+        <div style="text-align:center; margin-top:40px;">
+
+            <h2 id="totalPrice">Total : ₹0</h2>
+
+            <br>
+
+            <button class="btn" onclick="checkout()">
+                Proceed To Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="../js/cart.js"></script>
+
+</body>
+</html>

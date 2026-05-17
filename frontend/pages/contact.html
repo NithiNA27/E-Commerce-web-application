@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shivam Auto Workshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+        <!-- Logo + Image -->
+        <div class="logo-container">
+            <img src="../pictures\shivam-logo.jpeg" alt="Shivam Auto Workshop Logo" class="logo-img">
+            <h1 class="logo-text">Shivam Auto stores & Workshop</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="store.html">Auto Store</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html"class="active">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://wa.me/919100687587" class="whatsapp-btn" target="_blank">WhatsApp</a>
+    </div>
+</header>
+
+
+<section class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Reach out to us via phone, email, or visit our workshop.</p>
+
+        <div class="contact-grid">
+            <!-- Contact Info -->
+            <div>
+                <h3>Workshop Location</h3>
+                <p>opp : padmanayaka function hall , karimnagar road , jagtial</p>
+                <h3>Phone</h3>
+                <p><a href="tel:+91 91006 87587">+91 91006 87587</a></p>
+                <h3>Email</h3>
+                <p><a href="mailto:shivamautoworkshop@gmail.com">shivamautoworkshop@gmail.com</a></p>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required><br><br>
+                    <input type="email" placeholder="Your Email" required><br><br>
+                    <textarea placeholder="Your Message" required></textarea><br><br>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+        <div style="margin-top:30px;">
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.103022913666!2d78.9094416!3d18.7714039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcd138e658afea1%3A0x372963b5823ffbba!2sShivam%20Auto%20Works%20shop!5e0!3m2!1sen!2sin!4v1701907200000!5m2!1sen!2sin"
+    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Shivam Auto Workshop. All Rights Reserved.</p>
+        <p>Owner: Mr. Raj Mallesh</p> <!-- <-- Add owner here -->
+        <p>Contact: <a href="tel:+91 91006 87587">+91 91006 87587</a> | <a href="mailto:shivamautoworkshop@gmail.com">shivamautoworkshop@gmail.com</a></p>
+    </div>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('Message sent! We will contact you soon.');
+});
+</script>
+</body>
+</html>

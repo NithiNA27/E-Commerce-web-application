@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout - Shivam Auto Workshop</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="container">
+
+        <div class="logo-container">
+
+            <img src="../pictures/shivam-logo.jpeg"
+                 alt="Logo"
+                 class="logo-img">
+
+            <h1 class="logo-text">
+                Shivam Auto stores & Workshop
+            </h1>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="store.html">Auto Store</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="orders.html">Orders</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://wa.me/919100687587"
+           class="whatsapp-btn"
+           target="_blank">
+            WhatsApp
+        </a>
+
+    </div>
+
+</header>
+
+<section class="products">
+
+    <div class="container">
+
+        <h2>Checkout</h2>
+
+        <div class="product-card"
+             style="
+             max-width:700px;
+             margin:auto;
+             text-align:left;
+             ">
+
+            <form id="checkoutForm">
+
+                <label>
+                    Full Delivery Address
+                </label>
+
+                <textarea
+                    id="address"
+                    placeholder="House No, Street, Area, City, Pincode"
+                    required
+                    style="
+                    width:100%;
+                    padding:15px;
+                    margin-top:10px;
+                    margin-bottom:20px;
+                    height:140px;
+                    border-radius:10px;
+                    border:1px solid #ccc;
+                    resize:none;
+                    ">
+                </textarea>
+
+                <button class="btn"
+                        type="submit"
+                        style="
+                        width:100%;
+                        border:none;
+                        cursor:pointer;
+                        padding:15px;
+                        ">
+
+                    Place Order (Cash On Delivery)
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            &copy; 2025 Shivam Auto Workshop.
+            All Rights Reserved.
+        </p>
+
+        <p>
+            Owner: Mr. Raj Mallesh
+        </p>
+
+        <p>
+            Contact:
+            <a href="tel:+919100687587">
+                +91 91006 87587
+            </a>
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="../js/checkout.js"></script>
+
+</body>
+</html>
